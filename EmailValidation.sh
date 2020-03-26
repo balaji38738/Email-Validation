@@ -5,7 +5,7 @@
 #Date:- 27 March 2020
 
 printf "Email validation programme\n\n"
-emailPattern="^[0-9a-zA-Z]+"
+emailPattern="^[0-9a-zA-Z]+@[0-9a-zA-Z]+"
 read -p "Enter email id: " email
 
 if [[ $email =~ $emailPattern ]]
